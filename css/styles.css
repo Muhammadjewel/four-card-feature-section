@@ -1,6 +1,17 @@
 /* CUSTOM PROPS */
 :root {
+  --color-red: 234, 84, 84;
+  --color-cyan: 68, 211, 210;
+  --color-orange: 252, 174, 74;
+  --color-blue: 84, 158, 242;
+  --color-grey: 77, 79, 98;
 
+  --color-bg-body: 250, 250, 250;
+  --color-bg-card: 255, 255, 255;
+  --color-text: rgb(var(--color-grey));
+
+  --global-border-radius: 8px;
+  --card-box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
 }
 
 
@@ -10,11 +21,13 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #222;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 166.667%;
+  letter-spacing: 0.0065rem;
+  background-color: rgb(var(--color-bg-body));
+  color: rgb(var(--color-text));
 }
 
 img {
