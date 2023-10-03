@@ -167,11 +167,11 @@ select:-webkit-autofill:focus {
   font-weight: 200;
   line-height: normal;
   letter-spacing: 0.01044rem;
+  color: rgb(var(--color-text));
 }
 
 .features__heading-bold {
   font-weight: 600;
-  color: rgb(var(--color-text));
 }
 
 .features__list {
@@ -204,6 +204,19 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media only screen and (min-width: 48em) {
+  .feature-card {
+    padding: 32px;
+  }
+
+  .feature-card__title {
+    margin-bottom: 6px;
+  }
+
+  .feature-card__img {
+    width: 64px;
+    height: 64px;
+  }
+
   .features {
     padding-top: 80px;
     padding-bottom: 80px;
